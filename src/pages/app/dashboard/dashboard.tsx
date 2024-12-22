@@ -1,6 +1,6 @@
 import { Helmet } from 'react-helmet-async'
 
-import { DailyOrderNumberCard } from './daily-order-number-ard'
+import { DailyOrderNumberCard } from './daily-order-number-card'
 import { MonthCanceledOrderNumberCard } from './month-canceled-orders-number-card'
 import { MonthlyIncomeCard } from './monthly-income-card'
 import { MonthlyOrderNumberCard } from './monthly-order-number-card'

@@ -55,7 +55,7 @@ export function SignUp() {
   return (
     <>
       <Helmet title="Cadastro" />
-      <div className="p-8">
+      <div className="p-2 sm:p-8">
         <Button variant="ghost" asChild className="absolute right-8 top-8">
           <Link to="/sign-in">Fazer login</Link>
         </Button>

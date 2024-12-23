@@ -52,7 +52,7 @@ export function SignIn() {
     <>
       <Helmet title="Login" />
       <div className="p-8">
-        <Button variant="ghost" asChild className="absolute right-8 top-8">
+        <Button variant="ghost" className="absolute right-8 top-8">
           <Link to="/sign-up">Novo estabelecimento? Cadastre-se</Link>
         </Button>
 
@@ -65,7 +65,6 @@ export function SignIn() {
               Acompanhe suas vendas pelo painel do parceiro!
             </p>
           </div>
-
           <form onSubmit={handleSubmit(handleSignIn)} className="space-y-4">
             <div className="space-y-2">
               <Label htmlFor="email">Seu e-mail</Label>
@@ -75,7 +74,6 @@ export function SignIn() {
                 {...register('email')}
               />
             </div>
-
             <Button disabled={isSubmitting} className="w-full" type="submit">
               Acessar painel
             </Button>

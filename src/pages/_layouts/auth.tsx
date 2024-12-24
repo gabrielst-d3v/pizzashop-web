@@ -3,7 +3,7 @@ import { Outlet } from 'react-router'
 
 export function AuthLayout() {
   return (
-    <div className="flex min-h-screen flex-col antialiased lg:grid lg:grid-cols-2">
+    <div className="relative flex min-h-screen flex-col antialiased lg:grid lg:grid-cols-2">
       <div className="flex items-center justify-center bg-muted p-4 text-muted-foreground sm:items-center sm:justify-between sm:border-r sm:p-8 lg:flex lg:h-full lg:flex-col lg:border-foreground/5">
         <div className="flex items-center gap-3 text-lg text-foreground">
           <Pizza className="h-5 w-5" />
